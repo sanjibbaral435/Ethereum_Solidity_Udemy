@@ -45,3 +45,36 @@ Sublime - https://packagecontrol.io/packages/Ethereum
 VSCode - https://github.com/juanfranblanco/vscode-solidity
 Webstorm - https://plugins.jetbrains.com/plugin/9475-intellij-solidity
 VIM - https://github.com/tomlion/vim-solidity
+
+
+
+
+
+When running your test code you are probably getting or will probably get the following:
+
+AssertionError [ERR_ASSERTION]: Invalid callback specified
+
+
+
+If so, you should:
+
+1. Uninstall solc:
+npm uninstall solc
+
+
+
+2. Reinstall one of two versions:
+
+The version used in the course:
+
+npm install --save solc@0.4.17
+
+or
+
+The newest version that will not break:
+
+npm install --save solc@0.4.25
+
+
+
+npm install (#installs all dependencies as per package.json)
