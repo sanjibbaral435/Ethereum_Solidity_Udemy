@@ -1,2 +1,8 @@
 # ignore node_modules
 inbox/node_modules/
+
+# build folder
+inbox/node_modules/
+
+#debug_log
+inbox/npm-debug.log
